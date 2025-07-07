@@ -1,0 +1,11 @@
+#blog-title {
+    margin: 5rem;
+    text-align: center;
+    color: #f07d11;
+}
+
+#blog-cards-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
