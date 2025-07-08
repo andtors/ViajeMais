@@ -1,11 +1,18 @@
 #blog-title {
-    margin: 5rem;
+    margin: 3rem;
+    font-size: 4rem;
     text-align: center;
     color: #f07d11;
 }
 
+#blog-subtitle {
+    margin: 2rem;
+    color: #00558a;
+}
+
 #blog-cards-area {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

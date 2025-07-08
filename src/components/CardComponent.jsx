@@ -8,7 +8,7 @@ import "./CardComponent.css"
 
 
 
-const CardComponent = ({height, image, alt, title, description, url, date, className}) => {
+const CardComponent = ({height, image, alt, title, description, url, date, width}) => {
 
   // Script para apareçer a data formatada
   function getParsedDate(strDate){
@@ -30,7 +30,7 @@ const CardComponent = ({height, image, alt, title, description, url, date, class
   }
 
   return (
-    <Card sx={{ maxWidth: 300, marginBottom: 5 }}>
+    <Card sx={{ maxWidth: {width}, marginBottom: 5 }}>
         <CardActionArea >
             <CardMedia
             component="img"

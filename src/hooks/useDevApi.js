@@ -1,11 +1,16 @@
 import axios from 'axios';
 
 async function getData(url) {
-    const response = await axios.get(url)
+    try {
+        const response = await axios.get(url)
     
-    const data = response.data
+        const data = response.data
    
-    return data
+        return data
+    } catch (error) {
+        console.log(error)
+    }
+    
 }
 
 export default getData

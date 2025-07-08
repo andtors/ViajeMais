@@ -31,8 +31,7 @@ const Homepage = () => {
             <img id="home-logo" src="image/logo.png" alt="Logo" />
             <div>
                 <h1 id="home-title">Explore o mundo com a ViajeMais!</h1>
-                <p id="home-desc">A minha <br /> A sua <br /> A nossa  <br />
-                Proxima viagem se encontra aqui!</p>
+                <p id="home-desc">Conectando você às melhores experiências e destinos do mundo!</p>
             </div>
         </div>
         
@@ -40,7 +39,7 @@ const Homepage = () => {
 
         <div id="home-components">
             {articles.map((article) => (
-                <CardComponent key={article.id} height="300" title={article.title} description={article.description} image={article.social_image} url={article.url} date={article.published_at}/>
+                <CardComponent width={300} key={article.id} height="300" title={article.title} description={article.description} image={article.social_image} url={article.url} date={article.published_at}/>
             ))}
             <Card sx={{ maxWidth: 300, backgroundColor: "#00558a", marginBottom: 5}} >
                 <div id="home-card-blog">
