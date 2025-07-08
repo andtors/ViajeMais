@@ -22,12 +22,11 @@ const Contact = () => {
   return (
     <div id="contact">
       <h1 id="contact-title">Dúvidas, reclamações ou feedbacks? Entre em contato conosco!</h1>
-      <div id="contact-form">
-      
+    
           <form onSubmit={handleSubmit}>
-            <div className="form-group">
+            <div className="form-group" >
               <label>Nome</label>
-              <InputComponent name="name" type="text" placeholder="Digite seu nome" handleonchange={handleChange}/>
+              <InputComponent  name="name" type="text" placeholder="Digite seu nome" handleonchange={handleChange}/>
             </div>
 
             <div className="form-group">
@@ -40,11 +39,10 @@ const Contact = () => {
               <textarea rows={5} name="message" onChange={handleChange} placeholder="Digite sua mensagem"></textarea>
             </div>
             <div className="form-group">
-              <input type="submit"/>
+              <input type="submit" />
             </div>
           </form>
       
-      </div>
     </div>
   )
 }

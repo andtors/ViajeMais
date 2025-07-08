@@ -1,5 +1,4 @@
 import "./Homepage.css"
-import axios from 'axios';
 import CardComponent from "../components/CardComponent"
 
 import Card from '@mui/material/Card';

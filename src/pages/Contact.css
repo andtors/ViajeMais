@@ -1,11 +1,15 @@
 
 #contact {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #contact-title {
     margin: 5rem;
     color: #f07d11;
+    text-align: center;
 }
 
 .form-group {
@@ -24,7 +28,7 @@ input[type="submit"] {
     padding: 10px;
     border-radius: 5px;
     background-color: #f07d11;
-    width: 20%;
+    width: 113%;
     color: #00558a;
     font-weight: bold;
 }
@@ -43,7 +47,7 @@ textarea {
     border-radius: 5px;
     padding: 10px;
     background-color: #f0e8e8;
-    width: 50%;
+    width: 100%;
 }
 
 textarea:focus {
