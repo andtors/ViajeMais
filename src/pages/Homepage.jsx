@@ -45,7 +45,7 @@ const Homepage = () => {
                 </div>
             </Card>
             {articles.map((article) => (
-                  <CardComponent width={800} key={article.id} height="300" title={article.title} description={article.description} image={article.social_image} url={article.url} date={article.published_at}/>
+                  <CardComponent width={800} key={article.id} height="300" title={article.title} description={article.description} image={article.social_image} url={article.url} date={article.published_at} alt={article.slug}/>
             ))}
         </div>
     </div>

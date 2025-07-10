@@ -27,9 +27,9 @@ const Blog = () => {
       <h2 id="blog-subtitle">Descubra histórias inspiradoras e dicas valiosas de viajantes ao redor do mundo</h2>
         <div id="blog-cards-area">
           {articles.map((article) => (
-                  <CardComponent width={800} key={article.id} height="300" title={article.title} description={article.description} image={article.social_image} url={article.url} date={article.published_at}/>
+                  <CardComponent width={800} key={article.id} height="300" title={article.title} description={article.description} image={article.social_image} url={article.url} date={article.published_at} alt={article.slug} />
               ))}
-      </div>
+        </div>
     </div>
   )
 }
