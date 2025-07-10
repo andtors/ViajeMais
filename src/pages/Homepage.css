@@ -29,17 +29,16 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+   
 }
 
 #home-card-blog {
-    width: 300px;
     text-align: center;
-    padding-top: 150px;
+    padding: 5.5rem;
 }
 
 #home-card-blog h3 {
-    margin-bottom: 1rem;
     font-size: 30px;
     color: #f07d11;
 }
