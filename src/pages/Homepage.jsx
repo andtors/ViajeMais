@@ -28,7 +28,7 @@ const Homepage = () => {
   return (
     <div id="home">
         <div id="home-welcome">
-            <img id="home-logo" src="image/logo.png" alt="Logo" />
+            <img id="home-logo" src="logo.png" alt="Logo" />
             <div>
                 <h1 id="home-title">Explore o mundo com a ViajeMais!</h1>
                 <p id="home-desc">Conectando você às melhores experiências e destinos do mundo!</p>
