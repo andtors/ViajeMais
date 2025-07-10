@@ -1,12 +1,39 @@
-# React + Vite
+<h1>🌍 ViajeMais — Viagens e Aventuras pelo Mundo</h1>
+ViajeMais é um portal digital inspirador sobre viagens, aventuras e culturas ao redor do mundo. Desenvolvido com ReactJS, o site oferece uma experiência visual leve, imersiva e responsiva, destacando a beleza da natureza, a diversidade dos povos e as descobertas que nos movem. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Você pode acessar o site <a href="https://viaje-mais-inky.vercel.app">clicando aqui!</a>
 
-Currently, two official plugins are available:
+<h2>📄 Páginas do Site</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O site é composto por quatro páginas principais:
 
-## Expanding the ESLint configuration
+<ul>
+<li>🏠 Homepage: Apresentação do projeto com destaque para o tema de viagens e aventuras.</li>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<li>📝 Blog de Viagens: Lista de posts de viagens consumidos de uma API externa.</li>
+
+<li>🖼 Galeria de Imagens: Espaço com belas imagens de paisagens e momentos marcantes pelo mundo.</li>
+
+<li>📬 Página de Contato: Formulário para contato e informações adicionais.</li>
+</ul>
+
+<h2>🛠 Tecnologias Utilizadas</h2>
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+<ul>
+<li>ReactJS – Utilizado com Vite para uma inicialização rápida e moderna.</li>
+
+<li>JavaScript – Linguagem principal do projeto.</li>
+
+<li>React Router DOM – Para navegação entre as páginas do site.</li>
+
+<li>Axios – Para realizar requisições HTTP à API do blog de viagens.</li>
+
+<li>Material UI (MUI) – Biblioteca de componentes para construção da interface com design limpo e responsivo.</li>
+
+<li>Responsividade – Layout adaptável para diferentes tamanhos de tela, oferecendo uma boa experiência tanto em desktop quanto em dispositivos móveis.</li>
+</ul>
+
+<h2>🌐 Tema Visual</h2>
+O visual do ViajeMais é inspirado em elementos da natureza, com ênfase na leveza, descobertas e diversidade cultural. As cores claras e as fontes legíveis proporcionam uma leitura agradável e uma navegação fluida.
+
