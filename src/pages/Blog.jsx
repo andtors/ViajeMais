@@ -19,7 +19,7 @@ const Blog = () => {
 
   getArticles()
 
-  }, [])
+  }, [setArticles])
 
   return (
     <div>

@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// Hook para consumir api simples sem necessidade de key
 async function getData(url) {
     try {
         const response = await axios.get(url)

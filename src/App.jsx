@@ -21,7 +21,6 @@ function App() {
     <div>
       <BrowserRouter>
       <Navbar />
-        <div className="container">
           <Container>
               <Routes> 
                   <Route path="/" element={<Homepage />}></Route>
@@ -30,7 +29,6 @@ function App() {
                   <Route path="/contato" element={<Contact />}></Route>
               </Routes>
             </Container>
-        </div>
       </BrowserRouter>
     </div>
   )

@@ -1,6 +1,7 @@
 import "./Navbar.css"
 import { NavLink } from "react-router-dom"
 
+// Componente do header
 const Navbar = () => {
   return (
     <div id="navbar">

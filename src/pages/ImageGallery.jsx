@@ -67,7 +67,7 @@ const ImageGallery = () => {
         Uma coleção de destinos incríveis que vão inspirar sua próxima viagem
       </h2>
 
-      <Grid sx={{ display:"flex", flexDirectio:"column", justifyContent: "center", marginBottom: 5 }} container spacing={3}>
+      <Grid sx={{ display:"flex",  justifyContent: "center", marginBottom: 5 }} container spacing={3}>
         {galleryImages.map((image) => (
           <Grid item xs={12} sm={6} md={4} key={image.id}>
             <Card
@@ -77,11 +77,11 @@ const ImageGallery = () => {
                 "&:hover": {
                   transform: "scale(1.05)",
                 },
-                maxWidth:750
+                maxWidth:450
               }}
               onClick={() => handleImageClick(image)}
             >
-              <CardMedia component="img" height="500" image={image.src} alt={image.title} sx={{ objectFit: "cover" }} />
+              <CardMedia component="img" height="300"  image={image.src} alt={image.title} sx={{ objectFit: "cover" }} />
               <Box sx={{ p: 2 }}>
                 <Typography variant="h6" component="h3" gutterBottom>
                   {image.title}

@@ -21,7 +21,7 @@ const Homepage = () => {
 
   getArticles()
 
-  }, [])
+  }, [setArticles])
 
   const navigate = useNavigate()
 
@@ -39,7 +39,7 @@ const Homepage = () => {
 
         <div id="home-components">
             {articles.map((article) => (
-                <CardComponent width={300} key={article.id} height="300" title={article.title} description={article.description} image={article.social_image} url={article.url} date={article.published_at}/>
+                <CardComponent width={300} height={300} key={article.id}  title={article.title} description={article.description} image={article.social_image} url={article.url} date={article.published_at}/>
             ))}
             <Card sx={{ maxWidth: 300, backgroundColor: "#00558a", marginBottom: 5}} >
                 <div id="home-card-blog">

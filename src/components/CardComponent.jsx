@@ -6,8 +6,10 @@ import CardActionArea from '@mui/material/CardActionArea';
 
 import "./CardComponent.css"
 
-
-
+/*
+  Apesar de ser possivel estilizar os componentes da MUI diretamente importando-os nas paginas,
+  Optei por componentizar e usar props próprias e estilização em arquivo css
+*/ 
 const CardComponent = ({height, image, alt, title, description, url, date, width}) => {
 
   // Script para apareçer a data formatada
